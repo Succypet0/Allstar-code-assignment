@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
   
   .content {
@@ -70,12 +71,89 @@ body {
       font-size: 36px;
     }
   
-    .offer {
+    .offer{
       width: 100%;
     }
   
     .body {
       gap: 15px;
     }
+    
+  }
+
+  .graphics {
+    padding: 56px 20px;
+    margin: auto;
+    color: #010101;
+  }
+  .hDesign{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-between;
+    width: 1328px;
+  }
+  .hText {
+    text-align: right;
+    
+  }
+  .btn{
+    display: flex;
+    align-self: center;
+    justify-content: flex-start;
+    
+
+  }
+  button {
+    /* justify-content: center; */
+    background-color: #F6F8FA;
+    color: #3355FF;
+    border: 2px solid #3355FF;
+    
   }
   
+  .work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .wks img {
+    width: 100%;
+    height: auto;
+
+  }
+
+  .contacts {
+    text-align: center;
+    /* display:  */
+
+  }
+.topBox {
+    max-width: 800px;
+    margin: auto;
+}
+
+  
+  .enter-info{
+    display: grid;
+    grid-template-columns: repeat(2, 240px);
+    gap: 10px;
+    max-width: 600px;
+    margin:auto;
+  
+    
+  }
+  .data:nth-child(7) {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 4;
+    grid-row-end: span 2;
+
+  }
+  .btn-2 {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* i'm still dealing with the grid
+    i'll get to responsiveness*/
